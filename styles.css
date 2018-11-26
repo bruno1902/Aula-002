@@ -1,5 +1,6 @@
 header{
     background-color: #e24647;
+    border: 1px solid blue;
 }
 
 h1,a{
@@ -10,10 +11,17 @@ h1,a{
 h1{
     font-size: 40px;
     text-transform: uppercase;  
-    
+    top: 10px;
+    position: relative;
 }
 
 a{
     font-size: 20px;
     text-decoration: none;
+    color: black;
+    right: 200px;
+    border: 1px solid green;
+    position: relative;
+    left: 720px;
+    top: -20px;
 }
